@@ -4,12 +4,19 @@
     padding: 0;
   }
 
+  @font-face{
+   font-family: 'Fixedsys';
+   src: url("../Font/FSEX300.ttf");
+  }
+
   body{
     display: flex; 
     flex-direction: column; 
     background-image: url(../image/Background.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: 50% 10%;
+    background-size:100%;
+    position: fixed;
 
   }
   html, body {
@@ -20,41 +27,38 @@
   }
   .header{
     background-image: url(../image/header.png);
-    background-size:100%;
+    background-size:110%;
     background-repeat: no-repeat;
     background-position: 10% 30%;
-    position: fixed;
     display: flex;
     align-items: center;
     left: 0;
+    top:0;
     right: 0;
-    height:15%;
+    height:16%;
     z-index: 99;
+    position: fixed;
   }
-
-
-  .container {  
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows:  15% 10% 75%;
-    gap: 1px 1px;
-    grid-template-areas:
-      "header"
-      "divsion "
-      "cardArea ";
-  }
-
-  .header { grid-area: header; }
-
-  .divsion { grid-area: divsion; }
-  
-  .cardArea { grid-area: cardArea; }
-  
 
   .divsion {
-    background-color: aliceblue;
+    right: 10px;
+    height: 3px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(255, 170, 0) 0%, rgb(255, 238, 0) 80%, transparent 50%);
+    background-size: 50px 100%;
+    background-repeat: repeat-x
   }
 
 .cardArea {
     background-color: rgb(165, 11, 11);
+}
+
+.title{
+  margin-top: 10%;
+  margin-bottom: 2%;
+  font-family:Fixedsys;
+  color:rgba(255, 251, 0, 0.905);
+  text-align: center;
+  -webkit-text-stroke: 0.1px rgb(255, 149, 0);
+  
 }
