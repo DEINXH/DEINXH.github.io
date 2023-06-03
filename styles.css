@@ -6,28 +6,28 @@
 
   @font-face{
    font-family: 'Fixedsys';
-   src: url("../Font/FSEX300.ttf");
+   src: url("./Font/FSEX300.ttf");
   }
   @font-face{
     font-family: 'Eras-medium';
-    src: url("../Font/ERASMD.TTF");
+    src: url("./Font/ERASMD.TTF");
    }
    @font-face{
     font-family: 'Eras-light';
-    src: url("../Font/ERASLGHT.TTF");
+    src: url("./Font/ERASLGHT.TTF");
    }
    @font-face{
     font-family: 'Eras-bold';
-    src: url("../Font/ERASBD.TTF");
+    src: url("./Font/ERASBD.TTF");
    }
    @font-face{
     font-family: 'Eras-demi';
-    src: url("../Font/ERASDEMI.TTF");
+    src: url("./Font/ERASDEMI.TTF");
    }
   body{
     display: flex; 
     flex-direction: column; 
-    background-image: url(../image/Background.jpg);
+    background-image: url(./image/Background.jpg);
     background-repeat: repeat-y;
     background-position: 50% 10%;
     background-size:100%;
@@ -41,7 +41,7 @@
     font-family: sans-serif;
   }
   .header{
-    background-image: url(../image/header.png);
+    background-image: url(./image/header.png);
     background-size:110%;
     background-repeat: no-repeat;
     background-position: 10% 30%;
