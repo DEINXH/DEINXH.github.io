@@ -21,9 +21,17 @@
     </div>
 
     <div class="addbutton">
-        <h1>Tracker List</h1> <button id="addItem" onclick="addItem()">+</button>
+       <h1>Tracker List</h1>  <span><button id="addItem" onclick="addItem()">+</button></span>
     </div>
-
+    <div id="overlay">
+        <div class="popup">
+          <p class="popup_title">提示 <button class="cancelBtn" onclick="hidePopup()">取消</button> </p> 
+          <p class="popup_content">学会制作弹出框了吗？</p>
+          <div class="popup_btn">
+            <button class="confirmBtn" onclick="hidePopup()">确认</button>
+          </div>
+        </div>
+      </div>
 
     <div class="cardArea">
     </div>
