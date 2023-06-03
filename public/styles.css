@@ -50,7 +50,7 @@
     left: 0;
     top:0;
     right: 0;
-    height:16%;
+    height:120px;
     z-index: 99;
     position: fixed;
   }
@@ -78,7 +78,7 @@
   
 }
 .addbutton>h1{
-  margin-top :10px;
+  margin-top :1%;
   margin-left:2%;
   font-family:Eras-demi;
   float:left;
@@ -86,7 +86,7 @@
 }
 
 #addItem{
-  margin-top :10px;
+  margin-top :1%;
   font-size:large;
   float:right;
   margin-right:2%;
@@ -117,11 +117,11 @@
 
 /* mian part of the popup window */
 .popup {
-  background-color: #ffffff;
+  background-color: #ECECEC;
   max-width: 400px;
   min-width: 200px;
-  height: 500px;
-  border-radius: 5px;
+  height: 600px;
+  border-radius: 10px;
   margin: 100px auto;
   text-align: center;
 }
@@ -131,7 +131,9 @@
   height: 60px;
   line-height: 60px;
   border-bottom: solid 1px #cccccc;
-  font-family:Eras-medium;
+  background-color: #EECC64;
+  border-radius:10 10 0 0;
+  font-family:Eras-demi;
   text-align: center;
 }
 
@@ -149,24 +151,85 @@
   background-color: transparent;
 }
 
-.popup_content {
-  height: 100px;
-  line-height: 100px;
-  padding: 15px 20px;
+.inputbox {
+  padding: 10px 20px;
 }
 
 .popup_btn {
+  margin-top:10px;
   padding-bottom: 10px;
 }
+
 /* 弹出框的按钮 */
-.popup_btn button {
-  color: #778899;
+.popup_btn>input {
   width: 40%;
   height: 40px;
   cursor: pointer;
   border: solid 1px #cccccc;
   border-radius: 5px;
   margin: 5px 10px;
-  color: #ffffff;
-  background-color: #b73333;
+  color: #000000;
+  background-color: #ffc800;
+  
 }
+.confirmBtn{
+  font-size: large;
+  font-weight: bold;
+}
+.confirmBtn:hover{
+  background-color: #ffea00;
+}
+
+.confirmBtn:active{
+  background-color: #b87e00;
+}
+
+#inputform {
+  vertical-align:center;
+  margin-top:10px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2em 1em;
+  font-family:Eras-demi;
+}
+                
+.inputbox {
+  display: flex;
+  justify-content: flex-end;
+  padding: .5em;
+}
+                
+.inputbox> label {
+  float: left;
+  width: 90px;
+  padding-right: 10px;
+  text-align: right;
+  height: 35px;
+  vertical-align: middle;
+}
+
+
+#note{
+  height:150px;
+  width: 260px;
+	border-radius: 3px;
+	margin: 5px 0 5px 0;
+}
+
+input[type="radio"] {
+  margin-top:-5px;
+  margin-left:30px;
+  margin-right:5px;
+  zoom:2;
+  
+}
+
+.textfield{
+  text-align: center;
+	width: 260px;
+	height: 28px;
+	border-radius: 3px;
+	margin: 5px 0 5px 0;
+	}
+
+
