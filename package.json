@@ -4,8 +4,8 @@
   "description": "A3",
   "scripts": {
     "start": "node server.js",
-    "prestart": "parcel build ./docs/index.html",
-    "dev": "parcel serve ./docs/index.html",
+    "prestart": "parcel build ./public/index.html",
+    "dev": "parcel serve ./public/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bryan Ge",
