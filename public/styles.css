@@ -114,6 +114,7 @@
   display: none;
   z-index: 100;
 }
+
 /* mian part of the popup window */
 .popup {
   background-color: #ffffff;
@@ -124,24 +125,36 @@
   margin: 100px auto;
   text-align: center;
 }
-/* titile of the popup window*/
+
 .popup_title {
+  position:relative;
   height: 60px;
   line-height: 60px;
   border-bottom: solid 1px #cccccc;
+  font-family:Eras-medium;
+  text-align: center;
 }
 
 .cancelBtn{
-  float:right;
-  margin-top:5%
+  position: absolute;
+  top:0;
+  right:0;
+ /* place the cancel button at the top right part of the pop up title*/
+
+  font-size: xx-large;
+  margin-top:2%;
+  border-style:none;
+  padding:5px;
+  display:block;
+  background-color: transparent;
 }
-/* 弹出框的内容 */
+
 .popup_content {
   height: 100px;
   line-height: 100px;
   padding: 15px 20px;
 }
-/* 弹出框的按钮栏 */
+
 .popup_btn {
   padding-bottom: 10px;
 }
@@ -155,5 +168,5 @@
   border-radius: 5px;
   margin: 5px 10px;
   color: #ffffff;
-  background-color: #337ab7;
+  background-color: #b73333;
 }
