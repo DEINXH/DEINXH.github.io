@@ -43,7 +43,7 @@
 88C:\Users\win10\Desktop\DEINXH.github.io\node_modules\type-fest\source\readonly-deep.d.ts133302616270542693 0
 87C:\Users\win10\Desktop\DEINXH.github.io\node_modules\mdn-data\css\selectors.schema.json133302616269625765 0
 82C:\Users\win10\Desktop\DEINXH.github.io\node_modules\msgpackr-extract\package.json133302616266855041 0
-44C:\Users\win10\Desktop\DEINXH.github.io\dist133302785858682297 1
+44C:\Users\win10\Desktop\DEINXH.github.io\dist133302856822685861 1
 84C:\Users\win10\Desktop\DEINXH.github.io\node_modules\caniuse-lite\data\regions\AL.js133302616268678930 0
 45C:\Users\win10\Desktop\DEINXH.github.io\image133302615277326717 1
 69C:\Users\win10\Desktop\DEINXH.github.io\node_modules\call-bind\.nycrc133302616265449728 0
@@ -62,7 +62,7 @@
 46C:\Users\win10\Desktop\DEINXH.github.io\public133302615277356614 1
 112C:\Users\win10\Desktop\DEINXH.github.io\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_copy.c133302616270981232 0
 126C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeXMLProcInst.js133302616272645661 0
-44C:\Users\win10\Desktop\DEINXH.github.io\icon133302742799063722 1
+44C:\Users\win10\Desktop\DEINXH.github.io\icon133302855882243036 1
 52C:\Users\win10\Desktop\DEINXH.github.io\node_modules133302616284456163 1
 86C:\Users\win10\Desktop\DEINXH.github.io\node_modules\caniuse-lite\data\features\wav.js133302616278974495 0
 72C:\Users\win10\Desktop\DEINXH.github.io\node_modules\content-disposition133302616266386596 1
@@ -100,7 +100,7 @@
 66C:\Users\win10\Desktop\DEINXH.github.io\node_modules\lmdb\write.js133302616274031030 0
 90C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@swc\helpers\_\_sliced_to_array_loose133302616276143964 1
 110C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\_path.js133302616266934783 0
-57C:\Users\win10\Desktop\DEINXH.github.io\public\styles.css133302785858144096 0
+57C:\Users\win10\Desktop\DEINXH.github.io\public\styles.css133302857103229722 0
 83C:\Users\win10\Desktop\DEINXH.github.io\node_modules\lmdb\bin\download-prebuilds.js133302616273851629 0
 66C:\Users\win10\Desktop\DEINXH.github.io\node_modules\timsort\build133302616267144067 1
 71C:\Users\win10\Desktop\DEINXH.github.io\node_modules\.package-lock.json133302616284456163 0
@@ -1240,7 +1240,7 @@
 79C:\Users\win10\Desktop\DEINXH.github.io\node_modules\nth-check\lib\esm\parse.js133302616266874965 0
 62C:\Users\win10\Desktop\DEINXH.github.io\node_modules\svgo\dist133302616272645661 1
 78C:\Users\win10\Desktop\DEINXH.github.io\node_modules\resolve-from\package.json133302616264612526 0
-55C:\Users\win10\Desktop\DEINXH.github.io\dist\index.html133302776555245916 0
+55C:\Users\win10\Desktop\DEINXH.github.io\dist\index.html133302855182434502 0
 85C:\Users\win10\Desktop\DEINXH.github.io\node_modules\picocolors\picocolors.browser.js133302616264951391 0
 75C:\Users\win10\Desktop\DEINXH.github.io\node_modules\css-tree\cjs\generator133302616273801794 1
 93C:\Users\win10\Desktop\DEINXH.github.io\node_modules\dom-serializer\lib\foreignNames.d.ts.map133302616267742065 0
@@ -3313,7 +3313,7 @@
 114C:\Users\win10\Desktop\DEINXH.github.io\node_modules\csso\node_modules\css-tree\cjs\tokenizer\OffsetToLocation.cjs133302616273153961 0
 109C:\Users\win10\Desktop\DEINXH.github.io\node_modules\csso\node_modules\css-tree\lib\syntax\node\WhiteSpace.js133302616275346628 0
 79C:\Users\win10\Desktop\DEINXH.github.io\node_modules\css-select\lib\sort.js.map133302616272466263 0
-67C:\Users\win10\Desktop\DEINXH.github.io\dist\public.0ba7c674.js.map133302729123974477 0
+67C:\Users\win10\Desktop\DEINXH.github.io\dist\public.0ba7c674.js.map133302855181906263 0
 105C:\Users\win10\Desktop\DEINXH.github.io\node_modules\css-select\node_modules\entities\lib\esm\decode.d.ts133302616272506131 0
 106C:\Users\win10\Desktop\DEINXH.github.io\node_modules\csso\node_modules\css-tree\lib\syntax\function\var.js133302616275316737 0
 70C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@parcel\fs-search133302616271848330 1
@@ -3507,7 +3507,7 @@
 84C:\Users\win10\Desktop\DEINXH.github.io\node_modules\caniuse-lite\data\regions\SE.js133302616278266914 0
 73C:\Users\win10\Desktop\DEINXH.github.io\node_modules\csso\lib\restructure133302616273323402 1
 70C:\Users\win10\Desktop\DEINXH.github.io\node_modules\csso\lib\usage.js133302616273303464 0
-64C:\Users\win10\Desktop\DEINXH.github.io\dist\header.07efaf08.png133302729124143911 0
+64C:\Users\win10\Desktop\DEINXH.github.io\dist\header.07efaf08.png133302855181776691 0
 123C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\css\units.schema.json133302616270462972 0
 70C:\Users\win10\Desktop\DEINXH.github.io\node_modules\csso\lib\utils.js133302616273343329 0
 90C:\Users\win10\Desktop\DEINXH.github.io\node_modules\csso\lib\restructure\1-mergeAtrule.js133302616271688862 0
@@ -3540,7 +3540,7 @@
 100C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@swc\helpers\_\_class_private_field_destructure133302616275625695 1
 98C:\Users\win10\Desktop\DEINXH.github.io\node_modules\css-select\lib\pseudo-selectors\subselects.js133302616269595867 0
 79C:\Users\win10\Desktop\DEINXH.github.io\node_modules\csso\lib\replace\Atrule.js133302616272296831 0
-67C:\Users\win10\Desktop\DEINXH.github.io\dist\index.c180ac0f.css.map133302785858672338 0
+67C:\Users\win10\Desktop\DEINXH.github.io\dist\index.c180ac0f.css.map133302856822685861 0
 90C:\Users\win10\Desktop\DEINXH.github.io\node_modules\csso\lib\replace\AttributeSelector.js133302616272326727 0
 121C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\dist\csstree.min.js133302616271379897 0
 82C:\Users\win10\Desktop\DEINXH.github.io\node_modules\csso\lib\replace\Dimension.js133302616272854964 0
@@ -4836,7 +4836,7 @@
 74C:\Users\win10\Desktop\DEINXH.github.io\node_modules\browserslist\parse.js133302616267243735 0
 68C:\Users\win10\Desktop\DEINXH.github.io\node_modules\braces\index.js133302616265449728 0
 72C:\Users\win10\Desktop\DEINXH.github.io\node_modules\braces\package.json133302616264702225 0
-64C:\Users\win10\Desktop\DEINXH.github.io\dist\LOGO1 .27b9ad7b.png133302729124123986 0
+64C:\Users\win10\Desktop\DEINXH.github.io\dist\LOGO1 .27b9ad7b.png133302855181507603 0
 95C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@parcel\transformer-image\src\loadSharp.js133302616266575966 0
 94C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@swc\helpers\cjs\_array_without_holes.cjs133302616266884929 0
 72C:\Users\win10\Desktop\DEINXH.github.io\node_modules\braces\lib\parse.js133302616267672295 0
@@ -5134,7 +5134,7 @@
 109C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@swc\helpers\esm\_class_static_private_field_spec_set.js133302616274230364 0
 107C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@swc\helpers\esm\_class_static_private_field_update.js133302616274250296 0
 105C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@swc\helpers\esm\_class_static_private_method_get.js133302616274270228 0
-66C:\Users\win10\Desktop\DEINXH.github.io\dist\ERASDEMI.9860f8d3.TTF133302729124114010 0
+66C:\Users\win10\Desktop\DEINXH.github.io\dist\ERASDEMI.9860f8d3.TTF133302855181477700 0
 76C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@parcel\optimizer-image133302616273851629 1
 83C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@swc\helpers\esm\_construct.js133302616274280195 0
 86C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@swc\helpers\esm\_create_class.js133302616274310095 0
@@ -6043,7 +6043,7 @@
 133C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\3-disjoinRuleset.js133302616266217162 0
 123C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc-multiple133302616268649032 0
 136C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\4-restructShorthand.js133302616266685595 0
-68C:\Users\win10\Desktop\DEINXH.github.io\dist\Background.98b4f976.jpg133302729123994411 0
+68C:\Users\win10\Desktop\DEINXH.github.io\dist\Background.98b4f976.jpg133302855181766724 0
 122C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\index.js133302616271050998 0
 121C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\prepare133302616271579227 1
 130C:\Users\win10\Desktop\DEINXH.github.io\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-no-engines133302616274987830 1
@@ -6446,24 +6446,24 @@
 68C:\Users\win10\Desktop\DEINXH.github.io\node_modules\.bin\parcel.cmd133302616279432963 0
 64C:\Users\win10\Desktop\DEINXH.github.io\node_modules\.bin\semver133302616279432963 0
 66C:\Users\win10\Desktop\DEINXH.github.io\node_modules\.bin\svgo.ps1133302616279432963 0
-54C:\Users\win10\Desktop\DEINXH.github.io\icon\glove.png133302741240000000 0
-52C:\Users\win10\Desktop\DEINXH.github.io\icon\gun.png133302741240000000 0
-54C:\Users\win10\Desktop\DEINXH.github.io\icon\knife.png133302741240000000 0
-51C:\Users\win10\Desktop\DEINXH.github.io\icon\NA.png133302742165162798 0
+54C:\Users\win10\Desktop\DEINXH.github.io\icon\glove.png133274313621869042 0
+52C:\Users\win10\Desktop\DEINXH.github.io\icon\gun.png133302701127951332 0
+54C:\Users\win10\Desktop\DEINXH.github.io\icon\knife.png133274312885521608 0
+51C:\Users\win10\Desktop\DEINXH.github.io\icon\NA.png133302855074096682 0
 63C:\Users\win10\Desktop\DEINXH.github.io\dist\index.ca89fc43.css133302616789634519 0
 55C:\Users\win10\Desktop\DEINXH.github.io\Font\ERASBD.TTF133302615277167250 0
 57C:\Users\win10\Desktop\DEINXH.github.io\Font\ERASLGHT.TTF133302615277187183 0
 55C:\Users\win10\Desktop\DEINXH.github.io\Font\ERASMD.TTF133302615277197149 0
-64C:\Users\win10\Desktop\DEINXH.github.io\dist\ERASBD.0dad12a9.TTF133302729123944579 0
+64C:\Users\win10\Desktop\DEINXH.github.io\dist\ERASBD.0dad12a9.TTF133302855181477700 0
 64C:\Users\win10\Desktop\DEINXH.github.io\dist\ERASBD.0f5b1afd.TTF133302616768824158 0
-66C:\Users\win10\Desktop\DEINXH.github.io\dist\ERASLGHT.96e14854.TTF133302729123884782 0
-64C:\Users\win10\Desktop\DEINXH.github.io\dist\ERASMD.021003ca.TTF133302729123874809 0
+66C:\Users\win10\Desktop\DEINXH.github.io\dist\ERASLGHT.96e14854.TTF133302855181597293 0
+64C:\Users\win10\Desktop\DEINXH.github.io\dist\ERASMD.021003ca.TTF133302855182065729 0
 64C:\Users\win10\Desktop\DEINXH.github.io\dist\ERASMD.b7f93660.TTF133302616767169648 0
-65C:\Users\win10\Desktop\DEINXH.github.io\dist\FSEX300.4c5423c8.ttf133302729123974477 0
+65C:\Users\win10\Desktop\DEINXH.github.io\dist\FSEX300.4c5423c8.ttf133302855181547467 0
 65C:\Users\win10\Desktop\DEINXH.github.io\dist\FSEX300.c350e9b5.ttf133302616789654499 0
 66C:\Users\win10\Desktop\DEINXH.github.io\dist\index.13fe151e.js.map133302616789664422 0
-63C:\Users\win10\Desktop\DEINXH.github.io\dist\index.c180ac0f.css133302785858652391 0
-62C:\Users\win10\Desktop\DEINXH.github.io\dist\index.f3bd186e.js133302729123874809 0
-66C:\Users\win10\Desktop\DEINXH.github.io\dist\index.f3bd186e.js.map133302729123944579 0
-60C:\Users\win10\Desktop\DEINXH.github.io\dist\NA.615cb03a.png133302743072540468 0
-63C:\Users\win10\Desktop\DEINXH.github.io\dist\public.0ba7c674.js133302729123924655 0
+63C:\Users\win10\Desktop\DEINXH.github.io\dist\index.c180ac0f.css133302856822655961 0
+62C:\Users\win10\Desktop\DEINXH.github.io\dist\index.f3bd186e.js133302855182215227 0
+66C:\Users\win10\Desktop\DEINXH.github.io\dist\index.f3bd186e.js.map133302855182235160 0
+60C:\Users\win10\Desktop\DEINXH.github.io\dist\NA.615cb03a.png133302855181726860 0
+63C:\Users\win10\Desktop\DEINXH.github.io\dist\public.0ba7c674.js133302855181886333 0

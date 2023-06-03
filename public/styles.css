@@ -101,7 +101,8 @@
 }
 
 
-/*  */
+/* Add a translucent mask to the back pattern when the popup window pops up
+Reference from:ostuthere. (2022, May 6). https://blog.csdn.net/qq_35727582/article/details/114868023  */
 #overlay {
   position: fixed;
   left: 0px;
@@ -214,6 +215,7 @@
   width: 260px;
 	border-radius: 3px;
 	margin: 5px 0 5px 0;
+  padding: .5em;
 }
 
 input[type="radio"] {
