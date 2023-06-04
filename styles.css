@@ -133,7 +133,7 @@ Reference from:ostuthere. (2022, May 6). https://blog.csdn.net/qq_35727582/artic
   line-height: 60px;
   border-bottom: solid 1px #cccccc;
   background-color: #EECC64;
-  border-radius:10 10 0 0;
+  border-radius:10px 10px 0 0;
   font-family:Eras-demi;
   text-align: center;
 }
@@ -234,4 +234,11 @@ input[type="radio"] {
 	margin: 5px 0 5px 0;
 	}
 
-
+  #ID{
+    font-family: fixedsys;
+    float:left;
+  }
+#Date{
+  font-family: fixedsys;
+    float:right;
+}

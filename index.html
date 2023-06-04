@@ -21,7 +21,7 @@
     </div>
 
     <div class="addbutton">
-       <h1>Tracker List</h1>  <span><button id="addItem" onclick="addItem()">+</button></span>
+       <h1>Tracker List</h1>  <span><button id="addItem" onclick="addItem(),randomID(),dateID()">+</button></span>
     </div>
     <div id="overlay">
         <div class="popup">
@@ -65,12 +65,15 @@
           
             <div class="inputbox">
               <label for="note">Note</label>
-              <textarea  name="note" id="note" required="false" style="resize:none; "></textarea>
+              <textarea  name="note" id="note" style="resize:none; "></textarea>
             </div>
 
           <div class="popup_btn">
             <input class="confirmBtn" type="submit" value="Submit!" />
           </div>
+
+          <div id="ID"><p></p></div>
+          <div id="Date"><p>new Date()</p></div>
         </form>
 
           
