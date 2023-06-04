@@ -54,7 +54,44 @@
     z-index: 99;
     position: fixed;
   }
+  @media only screen and (min-width: 700px) and (max-width:1400px) {
+  .header{
+    background-image: url(./image/header.png);
+    background-size:110%;
+    background-repeat: no-repeat;
+    background-position: 10% 30%;
+    display: flex;
+    align-items: center;
+    left: 0;
+    top:0;
+    right: 0;
+    height:70px;
+    z-index: 99;
+    position: fixed;
+  }}
 
+  @media only screen and (max-width:700px) {
+    .header{
+      background-image: url(./image/header.png);
+      background-size:110%;
+      background-repeat: no-repeat;
+      background-position: 10% 30%;
+      display: flex;
+      align-items: center;
+      left: 0;
+      top:0;
+      right: 0;
+      height:40px;
+      z-index: 99;
+      position: fixed;
+    }}
+
+    @media only screen and  (max-width:700px) {
+      h1{
+        font-size: smaller;
+        -webkit-text-stroke: 0.1px rgba(255, 149, 0, 0);
+
+      }} 
   .divsion {
     right: 10px;
     height: 3px;
@@ -73,6 +110,7 @@
       ". . . ."; 
     overflow-y: auto;
     height: 700px; 
+    margin-top: 1%;
 }
 
 @media only screen and (min-width: 700px) and (max-width:1400px) {
@@ -85,6 +123,7 @@
       ".."; 
     overflow-y: auto;
     height: 700px; 
+    margin-top: 1%;
 }
 }
 @media only screen and (max-width: 699px) {
@@ -97,6 +136,7 @@
       "."; 
     overflow-y: auto;
     height: 700px; 
+    margin-top: 1%;
 }
 }
 
@@ -185,6 +225,11 @@ Reference from:ostuthere. (2022, May 6). https://blog.csdn.net/qq_35727582/artic
   display:block;
   background-color: transparent;
 }
+
+.cancelBtn:hover{
+  color: #ffffff;
+}
+
 
 .inputbox {
   padding: 10px 20px;
@@ -386,6 +431,29 @@ input[type="radio"] {
 
 }
 
+.infoTitleBuy{
+  background-color: #FF0000;
+  height:70px;
+  border-radius: 10px 10px 0 0;
+  padding-top: 20px;
+  font-size: xx-large;
+  font-family: fixedsys;
+  text-align: center;
+  box-shadow: 0 5px 10px 0px #999
+}
+
+.infoTitleSell{
+  background-color:#24FF00;
+  height:70px;
+  border-radius: 10px 10px 0 0;
+  padding-top: 20px;
+  font-size: xx-large;
+  font-family: fixedsys;
+  text-align: center;
+  box-shadow: 0 5px 10px 0px #999
+
+}
+
 .cardTitleBuy:hover{
   background-color: #5d0000;
   color:white;
@@ -442,7 +510,9 @@ input[type="radio"] {
   top:15px;
   right:5px;
 }
-
+.closebtn:hover{
+ color:#ffffff;
+}
 .basicinfo{
   font-family: Eras-demi;
   grid-column: 1 / 2; 
