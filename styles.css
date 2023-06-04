@@ -65,7 +65,14 @@
   }
 
 #cardArea {
-    background-color: rgb(165, 11, 11);
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 25% 25% 25% 25%; 
+    gap: 1px 1px; 
+    grid-template-areas: 
+      ". . . ."; 
+    overflow-y: auto;
+    height: 700px; 
 }
 
 .title{
@@ -255,7 +262,7 @@ input[type="radio"] {
 .gun{
   content:url(icon/gun.png);
   width:50px;
-  height:auto;
+  height:50px;
   padding-top:10px;
   padding-bottom:10px;
   margin-right:10px; 
@@ -280,3 +287,82 @@ input[type="radio"] {
   border-style:solid; 
   border-color:#000000 ;
 }
+
+.delete{
+  content:url(icon/delete.png);
+  width:40px;
+  height:40px;
+}
+
+.itemCard{
+  background-color: #ECECEC;
+  height:400px;
+  text-align: center;
+  width:350px;
+  margin:0 auto;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+.gunRound{
+  background-image:url(icon/gun.png);
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: center;
+  width:80px;
+  height:80px;
+  border-style:solid; 
+  border-color:#000000 ;
+  border-radius: 100%;
+  
+}
+
+.gloveRound{
+  background-image:url(icon/glove.png);
+  background-repeat: no-repeat;
+  background-size: 70px;
+  background-position: center;
+  width:80px;
+  height:80px;
+  border-style:solid; 
+  border-color:#000000 ;
+  border-radius: 100%;
+  align-items: center;
+  
+}
+
+.knifeRound{
+  content:url(icon/knife.png);
+  width:80px;
+  height:80px;
+  border-style:solid; 
+  border-color:#000000 ;
+  border-radius: 100%;
+  align-items: center;
+}
+
+.itemCard>button{
+  display: flex;
+  margin:0 auto;
+}
+
+.cardTitleBuy{
+  background-color: #FF0000;
+  height:70px;
+  border-radius: 10px 10px 0 0;
+  padding-top: 20px;
+  font-size: xx-large;
+  font-family: fixedsys;
+}
+
+.cardTitleSell{
+  background-color:#24FF00;
+  height:70px;
+  border-radius: 10px 10px 0 0;
+  padding-top: 20px;
+  font-size: xx-large;
+  font-family: fixedsys;
+
+}
+
+

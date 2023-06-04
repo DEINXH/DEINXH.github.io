@@ -28,10 +28,12 @@ icon.className=type
 }
 
 
+
 const form=document.getElementById('inputform')
 
 inputform.addEventListener('submit', function(event) {
   event.preventDefault(); 
+  
   
   var name= document.getElementById('skinName').value;
   var type= document.getElementById('skinType').value;
@@ -40,18 +42,31 @@ inputform.addEventListener('submit', function(event) {
   var note= document.getElementById('note').value;
   var id = document.getElementById('ID').value;
   var date = document.getElementById('Date').value;
-  
-  
-
-  var logo="";
-  if(type==='gun'){
-    logo='<img src="./icon/gun.png" style="width:50px;height:auto;>'
-  }else if(type==='knife'){
-    logo='<img src="./icon/knife.png" style="width:50px;height:auto;>'
-  }else if(type==='glove'){
-    logo='<img src="./icon/glove.png" style="width:50px;height:auto;>'
-  }
 
   
-  var itemCard ;
+  var logo='';
+  logo=type+'Round';
+
+  var itemCard ='<div class="itemCard">';
+  itemCard += '<div class="cardTitle'+BOS+'">';
+  itemCard += BOS ;
+  itemCard +='</div>';
+  itemCard +='<h2>'+name+'</h2>';
+  itemCard +='<h3>'+skinValue+'$'+'</h3>';
+  itemCard += '<img class="'+ logo +'">';
+  itemCard += '<button class="deleteButton"><i class="delete"></i></button>';
+  itemCard += '</div>'
+  
+  var cardTitle = document.querySelectorAll('.cardTitle');
+
+ 
+
+
+  var cardArea=document.getElementById("cardArea");
+  cardArea.innerHTML+=itemCard;
+
+  var overlay = document.getElementById("overlay");
+overlay.style.display = "none";
 })
+
+
