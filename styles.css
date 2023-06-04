@@ -75,6 +75,31 @@
     height: 700px; 
 }
 
+@media only screen and (min-width: 700px) and (max-width:1400px) {
+  #cardArea {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 50% 50%; 
+    gap: 1px 5px; 
+    grid-template-areas: 
+      ".."; 
+    overflow-y: auto;
+    height: 700px; 
+}
+}
+@media only screen and (max-width: 699px) {
+  #cardArea {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 100%; 
+    gap: 10px 10px; 
+    grid-template-areas: 
+      "."; 
+    overflow-y: auto;
+    height: 700px; 
+}
+}
+
 .title{
   margin-top: 10%;
   margin-bottom: 2%;
@@ -122,6 +147,8 @@ Reference from:ostuthere. (2022, May 6). https://blog.csdn.net/qq_35727582/artic
   display: none;
   z-index: 100;
 }
+
+
 
 /* mian part of the popup window */
 .popup {
@@ -241,14 +268,6 @@ input[type="radio"] {
 	margin: 5px 0 5px 0;
 	}
 
-  #ID{
-    font-family: fixedsys;
-    float:left;
-  }
-#Date{
-  font-family: fixedsys;
-    float:right;
-}
 
 .NA{
   content:url(icon/NA.png);
@@ -263,8 +282,6 @@ input[type="radio"] {
   content:url(icon/gun.png);
   width:50px;
   height:50px;
-  padding-top:10px;
-  padding-bottom:10px;
   margin-right:10px; 
   border-style:solid; 
   border-color:#000000 ;
@@ -307,7 +324,7 @@ input[type="radio"] {
 .gunRound{
   background-image:url(icon/gun.png);
   background-repeat: no-repeat;
-  background-size: 50px;
+  background-size: 80px;
   background-position: center;
   width:80px;
   height:80px;
@@ -353,6 +370,8 @@ input[type="radio"] {
   padding-top: 20px;
   font-size: xx-large;
   font-family: fixedsys;
+  text-align: center;
+  box-shadow: 0 5px 10px 0px #999
 }
 
 .cardTitleSell{
@@ -362,7 +381,121 @@ input[type="radio"] {
   padding-top: 20px;
   font-size: xx-large;
   font-family: fixedsys;
+  text-align: center;
+  box-shadow: 0 5px 10px 0px #999
 
 }
+
+.cardTitleBuy:hover{
+  background-color: #5d0000;
+  color:white;
+  box-shadow: 0px 15px 10px 0px #5c5c5c
+
+}
+
+.cardTitleSell:hover{
+  background-color:#0d6400;
+  color:white;
+  box-shadow: 0px 15px 10px 0px #5c5c5c
+
+
+}
+
+.cardContent{
+  margin-top:10px;
+  font-family: Eras-demi;
+  line-height: 50px;
+}
+
+
+.infoCard{
+  margin:100px auto;
+  width: 400px;
+  background-color: #ECECEC;
+  z-index: 150;
+  border-radius: 10px;
+  position: relative;
+  height:600px;
+}
+
+
+.overlay2 {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+  display: none;
+  z-index: 100;
+}
+
+.closebtn{
+  font-size: xx-large;
+  border-style:none;
+  padding:5px;
+  display:block;
+  background-color: transparent;
+  position: absolute;
+  top:15px;
+  right:5px;
+}
+
+.basicinfo{
+  font-family: Eras-demi;
+  grid-column: 1 / 2; 
+  grid-row: 1/ 2;
+  margin-top:50px;
+  margin-left: 30px;
+}
+
+.detailinfo{
+  grid-column: 2/ 3; 
+  grid-row: 1 / 2;
+  font-family: Eras-demi;
+  right: 5px;
+  margin:50px auto;
+  text-align: center;
+}
+
+.infovalue{
+  font-family: Eras-demi;
+  margin:0 auto;
+
+  grid-column: 1 / 3; 
+  grid-row: 2 / 3;
+
+}
+
+
+.infocontent {  
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 10% 40%;
+  gap: 1px 1px;
+  height: 530px;
+}
+
+.noteinfo{
+  grid-column: 1 / 3; 
+  grid-row: 3 / 4;
+  font-family: Eras-demi;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.notecontent{
+  background-color: #c9c8c8;
+  margin:0 auto;
+  width:300px;
+  height: 150px;
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
 
 
