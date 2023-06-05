@@ -26,7 +26,7 @@
  ![Web design](designdel.png)
  (above:web design ; below:prototype)
  ![Prototype](delete.png)
- 
+ As for the delete popup, to simplify the code, I chose not to use a complex popup with overlay, but an alert popup box as a carrier to confirm the deletion.
 
  ## Iteration 1 Date:1/6/2023
 
@@ -68,3 +68,8 @@
 ## Deployment:
 - The web application can be deployed by hosting via github.
 - The web application can be deployed through localhost.
+
+## Future Outlook:
+In my future work, I hope to add to this application the functionality to calculate the profit and loss of users that I didn't add. 
+
+It can also add a user registration and login function, giving each user an independent data management; it can also provide the function of modifying existing items.
