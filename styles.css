@@ -131,7 +131,7 @@
     display: grid; 
     grid-auto-columns: 1fr; 
     grid-template-columns: 50% 50%; /* Place two cards in a row for small screens like ipad */
-    gap: 1px 5px; 
+    gap: 10px 5px; 
     grid-template-areas: 
       ".."; 
     overflow-y: auto;
@@ -156,7 +156,7 @@
 /* set the basic function introduce with pixel fonts with orange stroke to attract users' attention*/
 .title{
   margin-top: 10%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   font-family:Fixedsys;
   color:rgba(255, 253, 108, 0.905);
   text-align: center;
