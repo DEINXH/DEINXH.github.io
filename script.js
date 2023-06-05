@@ -82,7 +82,7 @@ function renderCards() {
     });
     
 
-    //click the delete button to delete the relative card from the database and local storage
+    //click the delete button to delete the relative card from the database and local storage; send confirm message through the browser
     deleteButton.addEventListener('click', function() {
       var msg = 'Are you sure to delete this?';
       if (confirm(msg) == true) {
