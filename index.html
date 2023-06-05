@@ -8,38 +8,49 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
+    <!-- header part -->
     <header class="header"> 
         <img src="./image/LOGO1 .png" width="8%", style="margin-left: 3%;" alt="logo"/> 
     </header>
 
+    <!-- tell users the basic function of this web application -->
     <div class="title">
         <h1>Track your CSGO skins now!<br>Click "+" to create new items</h1>
     </div>
-
+     
+    <!-- cotain the divide dashed line -->
     <div class="divsion">
     </div>
-
+    
+    <!-- header part of the tracker list, with h1 title and a button with addItem() function -->
     <div class="addbutton">
        <h1>Tracker List</h1>  <span><button id="addItem" onclick="addItem()">+</button></span>
     </div>
-    <div id="overlay">
-        <div class="popup">
 
+    
+    <div id="overlay"> <!-- the overlay of the input form popup -->
+        
+       <!-- main body of input form popup -->
+        <div class="popup">
           <div class="popup_title">
           <h2 >Add New Skin </h2> 
-          <button class="cancelBtn" onclick="hidePopup()">×</button>
+          <button class="cancelBtn" onclick="hidePopup()">×</button> <!-- Cancel button, close the popup by the function hidePopup() -->
           </div>
 
-         <form id="inputform">
+         <form id="inputform"> 
+
+           <!-- Require user to input the skin name by textfield -->
           <div class="inputbox">
             <label for="skinName">Skin name</label>
             <input class="textfield" type="text" name="skinName" id="skinName" required="true" />
           </div>
           
-          <div class="inputbox">
+          <!-- Require user to select the skin type -->
+          <div class="inputbox"> 
             <label for="skinType">Skin type</label>
-            <img id="icon" class="NA" alt="Type icon">
+            <img id="icon" class="NA" alt="Type icon"> <!-- default icon when-->
+
+            <!-- using iconChange() function to change the icon according to user's choice of skin type-->
             <select  id="skinType" onchange="iconChange()" required="true" style="width:200px; text-align:center ; font-size: large;">
               <option selected="selected" disabled="disabled"  style='display: none' value=''></option>
               <option value ="gun">gun</option>
@@ -48,6 +59,7 @@
             </select>
           </div>
 
+          <!-- Require user to input the skin trade status by two radio box -->
           <div class="inputbox">
           <label for="BOS">Buy or sell</label>
             <input type="radio" name="BOS" id="" value="Buy" checked>Buy
@@ -62,12 +74,14 @@
             <input class="textfield" id="Value" type="text" name="Value" oninput="value=value.replace(/[^\d]/g,'')" required="true" placeholder="USD">
           </div>
 
-          
+           
+          <!-- this is an optional choice for user to write notes for the skin.-->
             <div class="inputbox">
               <label for="note">Note</label>
               <textarea  name="note" id="note" style="resize:none; "></textarea>
             </div>
 
+            <!-- the submit button-->
           <div class="popup_btn">
             <input class="confirmBtn" type="submit" value="Submit!" />
           </div>
@@ -76,11 +90,14 @@
 
         </div>
       </div>
+   
 
+    <!-- this is the area to place the item cards with information input by users-->
     <div id="cardArea">
 
     </div>
-
+     
+    <!-- this is the pop up for the all associated data, the specific HTML code will be written by JavaScript-->
     <div class="overlay2"><div class="infoCard"></div></div>
     
     

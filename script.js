@@ -1,14 +1,16 @@
+ /* display the inputform popup*/
 function addItem(){
     var overlay = document.getElementById("overlay");
     overlay.style.display = "block";
   }
   
+  /*  hide the inputform popup by clicking the cancelBtn*/
 function hidePopup(){
     var overlay = document.getElementById("overlay");
     overlay.style.display = "none";
   }
 
-  
+  /* Icon change function according to user's choice */
 function iconChange(){
 var icons = document.getElementById('icon');
 var type= document.getElementById('skinType').value;
@@ -16,41 +18,49 @@ icons.className=type
 }
 
 
-
+/* DOM process*/
 const form=document.getElementById('inputform')
 const cardArea=document.getElementById("cardArea");
 const overlay2 = document.querySelector('.overlay2');
 const infoCard = document.querySelector('.infoCard');
 
-let cards = [];
+let cards = []; // store the data of cards
 
+/* function for making a basic item card*/
 function renderCards() {
-  cardArea.innerHTML = '';
+
+  cardArea.innerHTML = ''; //clear the card area
   for (const card of cards) {
     const { id, name, type, bos, skinValue, note, date } = card;
 
     const logo = type + 'Round';
 
+    //create card
     const itemCard = document.createElement('div');
     itemCard.className = 'itemCard';
-
+    
+    //create card header
     const cardTitle = document.createElement('div');
     cardTitle.className = 'cardTitle' + bos;
     cardTitle.innerHTML = bos;
     itemCard.appendChild(cardTitle);
-
+    
+    //create card content
     const cardContent = document.createElement('div');
     cardContent.className = 'cardContent';
     cardContent.innerHTML = `<h2>${name}</h2><h2>${skinValue}$</h2><img class="${logo}">`;
     itemCard.appendChild(cardContent);
-
+   
+    //create delete button
     const deleteButton = document.createElement('button');
     deleteButton.innerHTML = `<i class="delete"></i>`;
     itemCard.appendChild(deleteButton);
-
+    
+    //Add the generated card to the card area
     cardArea.appendChild(itemCard);
     
     
+    //click the card header to see the infocard popup
     cardTitle.addEventListener('click', function() {
       const infoTitle = document.createElement('div');
       infoTitle.className = 'infoTitle' + bos;
@@ -62,14 +72,17 @@ function renderCards() {
       infoCard.appendChild(infoTitle);
       infoCard.appendChild(detail);
       overlay2.style.display = 'block';
-
+      
       const closebtn = document.querySelector('.closebtn');
-
+      
+      //click close button to close the info card popup
       closebtn.addEventListener('click', function() {
         overlay2.style.display = 'none';
       });
     });
+    
 
+    //click the delete button to delete the relative card from the database and local storage
     deleteButton.addEventListener('click', function() {
       var msg = 'Are you sure to delete this?';
       if (confirm(msg) == true) {
@@ -87,12 +100,12 @@ function renderCards() {
   }
 }
 
-// 保存卡片数据到本地存储
+// save the card data to localstorage
 function saveCardsToLocalStorage() {
   localStorage.setItem('cards', JSON.stringify(cards));
 }
 
-// 从本地存储中获取数据并填充表单
+// fetch data from local storage for submission
 function loadCardsFromLocalStorage() {
   if (localStorage.getItem('cards')) {
     cards = JSON.parse(localStorage.getItem('cards'));
@@ -100,7 +113,7 @@ function loadCardsFromLocalStorage() {
   }
 }
 
-// 提交表单
+//submit the form
 form.addEventListener('submit', function(event) {
   event.preventDefault();
 
@@ -111,7 +124,7 @@ form.addEventListener('submit', function(event) {
   const note = document.getElementById('note').value;
   const id = Date.now();
   const time = new Date().toISOString();
-  const date = /\d{4}-\d{1,2}-\d{1,2}/g.exec(time);
+  const date = /\d{4}-\d{1,2}-\d{1,2}/g.exec(time); /* Remove hours, minutes, and seconds */
 
   const card = {
     id,
@@ -122,17 +135,21 @@ form.addEventListener('submit', function(event) {
     note,
     date
   };
-
+  
+  //save the relatve data to local storage and use renderCards() function to generate the itemcard
   cards.push(card);
   saveCardsToLocalStorage();
   renderCards();
 
+  //clear the inputform
   form.reset();
+
+  //hide the additem popup
   var overlay = document.getElementById("overlay");
   overlay.style.display = "none";
 });
 
-// 页面加载时加载本地存储中的数据
+// Loading data from local storage when the web page is loaded
 loadCardsFromLocalStorage();
 
 
