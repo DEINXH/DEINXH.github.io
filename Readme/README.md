@@ -73,3 +73,8 @@
 In my future work, I hope to add to this application the functionality to calculate the profit and loss of users that I didn't add. 
 
 It can also add a user registration and login function, giving each user an independent data management; it can also provide the function of modifying existing items.
+
+## Image Reference
+(n.d.). Retrieved from https://wallpapersafari.com/cs-go-wallpapers-1440p/. 
+(n.d.). Retrieved from https://www.csgo.com.cn/article/details/20200319/221421.html. 
+nopixel. (n.d.). Retrieved from https://thenounproject.com/icon/butterfly-knife-447763/. 
